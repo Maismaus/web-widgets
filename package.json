@@ -21,7 +21,7 @@
     "publish-marketplace": "turbo run publish-marketplace",
     "version": "pnpm --filter release-utils-internal run version",
     "changelog": "pnpm --filter release-utils-internal run changelog",
-    "validate-staged-widget-versions": "node scripts/validation/validate-versions-staged-files.js"
+    "validate-staged-widget-versions": "node automation/scripts/validate-versions-staged-files.cjs"
   },
   "devDependencies": {
     "@commitlint/cli": "^15.0.0",
